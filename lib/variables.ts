@@ -112,24 +112,25 @@ export const SHORT_DATE_OPTIONS: Intl.DateTimeFormatOptions = {
  */
 export const FORM_DEFAULT_VALUES = {
     sender: {
-        name: "",
-        address: "",
-        zipCode: "",
-        city: "",
-        country: "",
-        email: "",
-        phone: "",
+        name: "Fix Tune Motors",
+        address: "Latt, Co. Cavan",
+        zipCode: "H12 A8X2",
+        city: "Cavan",
+        country: "Co. Cavan",
+        email: "fixtunemotors@gmail.com",
+        phone: "+353 87 466 3350",
         customInputs: [],
     },
     receiver: {
         name: "",
+        REG:"",
         address: "",
         zipCode: "",
         city: "",
         country: "",
         email: "",
         phone: "",
-        customInputs: [],
+        customInputs: [{reg:""}],
     },
     details: {
         invoiceLogo: "",
