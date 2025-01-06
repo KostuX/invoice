@@ -123,14 +123,13 @@ export const FORM_DEFAULT_VALUES = {
     },
     receiver: {
         name: "",
-        REG:"",
         address: "",
         zipCode: "",
         city: "",
         country: "",
         email: "",
         phone: "",
-        customInputs: [{reg:""}],
+        customInputs: [],
     },
     details: {
         invoiceLogo: "",
