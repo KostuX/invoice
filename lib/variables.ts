@@ -132,7 +132,7 @@ export const FORM_DEFAULT_VALUES = {
         customInputs: [],
     },
     details: {
-        invoiceLogo: "",
+        invoiceLogo: "/assets/img/logo_black.png",
         invoiceNumber: "",
         invoiceDate: "",
         dueDate: "",
